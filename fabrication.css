@@ -1,15 +1,9 @@
-#er{
-  font-size: 0
-}
-
-#azerty{
-  padding-left: 1050px;
-  padding-right: 20px;
-}
+s
 
 #div1,#div2,#div3,#div4,#div5,#div6,#div7{
   width: 90%;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -18,7 +12,7 @@ p{
 }
 
 .image{
-	padding-left: 500px;
+	padding-left: 39%;
 }
 
 h1{
