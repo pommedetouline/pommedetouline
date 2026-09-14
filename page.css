@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: white; 
+    vertical-align: middle;
+    padding: 3px;
+    text-decoration: none;
+    font-family: "Tektur", sans-serif;
+  	transition: ease 1.2s;
+}
+
+nav{
+	background-color: rgba(0,0,140,1);
+    text-align: right;
+    padding: 5px;
+}
+
+#entete{
+	position: sticky;
+	top: 0;
+}
+
+.lien a:hover{
+	color: rgb(0,0,140);
+    background-color: rgb(255,255,255);
+}
+
+ul{
+	list-style-type: none;
+	display: flex;
+	padding-right: 12%;
+}
+
+
+.logo {
+    position: relative;
+    top: 1px;
+    margin: 8px;
+    margin-right: 400px;
+}
+li{
+	margin-right: 20px;
+	margin-top: 20px;
+	position: relative;
+	top: 8px;
+}
+
+ h1,h2{
+  	font-family: "Dancing Script", cursive;
+  	font-style: normal;
+ 	text-align: center;
+}
+
+h1{
+  	color: rgb(0,0,140);
+ 	padding-top: 20px;
+ 	margin-bottom: 20px;
+}
+
+p{
+ 	font-family: "Dancing Script", cursive;
+ 	font-style: normal;
+ 	font-size: 20px;
+}
+
+footer{
+	color: white;
+  	background-color: black;
+  	text-align: center;
+}
+
+@media screen and (max-width: 440px){
+ul{
+	flex-direction: column;
+	text-align: center;
+	padding-left: 160px;
+}
+.logo{
+	position: absolute;
+	top: 75px;
+	right: -160px;
+}
+}
+
+@media screen and (max-width: 1280px) {
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+}
+.enveloppe{
+	padding-bottom: 6px;
+}
+
+.pied_de_page{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.telephone{
+	margin-left: 100px;
+}
+
+.fleche{
+	border: 1px solid white;
+	border-radius: 180px;
+	padding: 5px;
+	position: relative;
+	top: 1px;
+	right: 50px;
+	flex: 1;
+}
+
+.enveloppe1{
+	position: relative;
+	top: 6px;
+}
+
+.coordonnées{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 50px;
+	text-align: center;
+	flex: 2;
+}

@@ -1,0 +1,19 @@
+body{
+	background: url('fond_accueil.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.blabla{
+	color: rgba(0,0,0,0);
+}
+
+h1{
+	width: 10%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+h2{
+	width: 95%
+}
