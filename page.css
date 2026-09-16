@@ -84,6 +84,10 @@ ul{
 	top: 75px;
 	right: -160px;
 }
+
+.blabla{
+	font-size: 0px !important;
+}
 }
 
 html, body{

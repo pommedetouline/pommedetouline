@@ -1,8 +1,7 @@
 .texteetapes{
-  width: 90%;
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 10px;
-  text-align: center;
 }
 
 p{
@@ -21,8 +20,4 @@ body{background: url('fond_fabrication.jpg');
 
 #div7{
 	margin-bottom: 30px;
-}
-
-.image{
-	padding-right: 100px;
 }
