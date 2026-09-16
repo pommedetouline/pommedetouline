@@ -1,6 +1,4 @@
-s
-
-#div1,#div2,#div3,#div4,#div5,#div6,#div7{
+.texteetapes{
   width: 90%;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -11,12 +9,8 @@ p{
 	text-align: center;
 }
 
-.image{
-	padding-left: 39%;
-}
-
 h1{
-	margin: 20px;
+	margin : 20px;
 }
 
 body{background: url('fond_fabrication.jpg');
@@ -27,4 +21,8 @@ body{background: url('fond_fabrication.jpg');
 
 #div7{
 	margin-bottom: 30px;
+}
+
+.image{
+	padding-right: 100px;
 }
